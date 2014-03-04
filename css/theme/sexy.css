@@ -140,7 +140,7 @@ body {
   height: 6px; }
 
 /**
- * CUSTOM STYLES
+ * custom styles
  */
 .reveal section.dark {
   color: #eee; }
@@ -168,10 +168,10 @@ body {
   vertical-align: middle;
   box-shadow: none; }
 .reveal section ul {
-  padding: 0 100px;
   list-style-type: circle;
   margin-bottom: 50px; }
-
-span.dimmed {
+.reveal section.padded-uls ul {
+  padding: 0 100px; }
+.reveal span.dimmed {
   color: #777;
   font-size: 0.5em; }
