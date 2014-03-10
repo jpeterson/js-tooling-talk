@@ -43,6 +43,7 @@
 					<aside class="notes">
 						<p>My name is Josh</p>
 						<p>I'm a developer here at Esri</p>
+						<p>Professional Services, build JS apps everyday</p>
 						<p>I currently live in Washington, DC and work in Esri's regional office there</p>
 						<p>But my home is the greatest place on earth: Colorado</p>
 					</aside>
@@ -63,20 +64,6 @@
 				<section class="padded-uls">
 					<h3>Because of these?</h3>
 					<img class="wordcloud" src="img/wordcloud2.jpg">
-					<!-- <ul style="float:left">
-						<li>Closures
-						<li>Loosely typed
-						<li>Variable Scope
-						<li>"OOP Scripting"
-						<li>Prototypal Inheritance
-					</ul>
-					<ul style="float:right">
-						<li>HTML
-						<li>CSS
-						<li>DOM
-						<li>IIFE's
-						<li>ES4/5/6
-					</ul> -->
 					<h3 class="fragment roll-in" style="margin-top:50px;">No, not really <br /><span class="dimmed">(well, mostly)</h3>
 
 					<aside class="notes">
@@ -92,17 +79,18 @@
 					<h4>Because</h4>
 					<h3>JS workflows are unopinionated.</h3>
 					<h3><span class="dimmed">(unlike JS developers...)</span></h3>
-					<ul style="margin-top:50px; float:left">
-						<li class="fragment roll-in">Where's my IDE?
-						<li class="fragment roll-in">Which framework is "best"?
-						<li class="fragment roll-in">How/why do I build?
-						<li class="fragment roll-in">No really, where's my IDE?
+					<ul style="margin-top:50px; float:left" class="fragment roll-in">
+						<li>Where's my IDE?
+						<li>Which framework is "best"?
+						<li>How/why do I "build"?
+						<li>No really, where's my IDE?
 					</ul>
 					<img class="fragment roll-in" style="float:right" src="img/amateur-hour.gif">
 
 					<aside class="notes">
+						JavaScript is unopinionated
 						<ol>
-							<li>JavaScript is unopinionated
+							<li>This leads to a lot of questions
 							<li>Unlike Flex/Silverlight/Java/WPF, there is no standard IDE
 							<li>You lose your 'Build' button
 							<li>You lose your 'Run in debug mode' button
@@ -126,7 +114,6 @@ Drinking game:
 					<h4>Tools solve our workflow problem</h4>
 
 					<aside class="notes">
-						<p>todo: make them jump in after slide</p>
 						<ol>
 							<li>Tools solve our workflow problem!
 							<li>The JS tooling ecosystem has exploded.
@@ -134,7 +121,8 @@ Drinking game:
 					</aside>
 				</section>
 				<section data-background="#35AC46" class="dark">
-					<h3>Writing Code</h3>
+					<h2 style="margin-bottom:200px">Writing Code</h2>
+					<h4>Sublime Text / WebStorm / Atom</h4>
 
 					<aside class="notes">
 						<p>Now I'm going to briefly set up the demo by pinpointing some workflow problems solved by tools</p>
@@ -143,111 +131,41 @@ Drinking game:
 						<p>Visual Studio and Eclipse are okay... but theres a lot of overhead and junk that you'll never use</p>
 					</aside>
 				</section>
-				<section>
-					<h3>Sublime Text / Atom / WebStorm</h3>
-					<div>
-						<img class="fragment roll-in" src="img/sublime-text.gif">
-						<br>
-					</div>
-
-					<aside class="notes">
-						<p>These are examples of modern code editors made for web developers</p>
-						<p>Sublime Text is my weapon of choice, and Atom is a really hyped editor coming from the GitHub team. WebStorm is more along the lines of a traditional IDE.</p>
-						<p>Plugins! Backbone and Bootstrap snippets and autocomplete, other stuff we'll see in a few minutes</p>
-					</aside>
-				</section>
 				<section data-background="#35AC46" class="dark">
-					<h3>Syntax Errors</h3>
+					<h2 style="margin-bottom:200px">Syntax Errors</h2>
+					<h4>JSHint / JSLint</h4>
 
 					<aside class="notes">
 						<p>Since JS doesn't compile until runtime, its hard to identify "pre-compilation" errors</p>
 						<p>Syntax errors, undefined variables, typos</p>
 					</aside>
 				</section>
-				<section>
-					<h3>JSHint / JSLint</h3>
-					<div>
-						<img src="img/jshint-repo.png">
-						<br>
-					</div>
-					
-					<aside class="notes">
-						<p>Linters are programs that identify common errors and potential problems</p>
-					</aside>
-				</section>
 				<section data-background="#35AC46" class="dark">
-					<h3>Dependency Management</h3>
+					<h2 style="margin-bottom:200px">Dependency Management</h2>
+					<h4>Bower</h4>
 					
 					<aside class="notes">
 						<p>For smaller JS projects you may not need dependency management</p>
 						<p>But as your projects grow in size, you'll be lost without it</p>
 					</aside>
 				</section>
-				<section>
-					<h3>Bower</h3>
-					<div>
-						<img src="img/bower-logo.png">
-						<br>
-					</div>
-				</section>
 				<section data-background="#35AC46" class="dark">
-					<h3>CSS is not code</h3>
-					<div>
-						<br>
-					</div>
+					<h2 style="margin-bottom:200px">CSS is not code</h2>
+					<h4>Stylus / SASS / LESS</h4>
 
 					<aside class="notes">
 						<p>To developers, CSS can be a bit of a curveball</p>
 						<p>It's not code, it can be very repetetive and theres a lot of typing and bloat</p>
 					</aside>
 				</section>
-				<section>
-					<h3>Stylus / SASS / LESS</h3>
-					<div>
-						<img src="img/stylus.png">
-						<br>
-					</div>
-
-					<aside class="notes">
-						<p>To fix this, these things called CSS Preprocessors have started gaining traction</p>
-						<p>They allow us to write "code" that gets compiled into plain CSS</p>
-					</aside>
-				</section>
 				<section data-background="#35AC46" class="dark">
-					<h3>Task Automation</h3>
+					<h2 style="margin-bottom:200px">Task Automation</h2>
+					<h4>Grunt / Gulp / CodeKit / Mixture</h4>
 
 					<aside class="notes">
 						<p>Now that we know all these great things we can and should be doing, how do we do them efficiently?</p>
 						<p>Did we just add a ton of effort to our workflow with each of these tools?</p>
 					</aside>
-				</section>
-				<section>
-					<h3>Grunt / Gulp / CodeKit / Mixture</h3>
-					<div>
-						<img src="img/grunt-logo.png">
-						<br>
-					</div>
-
-					<aside class="notes">
-						<p>If we use one of these guys, they will carry out the repeatable tasks for us</p>
-						<p>Grunt/Gulp are command line based, while Mixture and CodeKit take a GUI approach</p>
-					</aside>
-				</section>
-				<section data-background="#35AC46" class="dark">
-					<h3>Debugging</h3>
-
-					<aside class="notes">
-						<p>Debugging is probably the #1 complaint I hear about JS development</p>
-						<p>Firebug blazed this trail, but these days Chrome Dev Tools is king</p>
-						<p>Postman is a relative newcomer that helps with API testing, we might not have time to look at it but you should definitely check it out</p>
-					</aside>
-				</section>
-				<section>
-					<h3>Browser Dev Tools / Postman</h3>
-					<div>
-						<img src="img/devtools.png">
-						<br>
-					</div>
 				</section>
 				<section data-background="#007ac2" class="dark">
 					<h2>Demo Time!</h2>
@@ -260,7 +178,10 @@ Drinking game:
 					</aside>
 				</section>
 				<section>
-					<h1>THE END</h1>
+					<h1>END</h1>
+					<br />
+					<h3>jpeterson@esri.com</h3>
+					<br />
 					<h3>@jm_peterson</h3>
 				</section>
 			</div>
