@@ -1,6 +1,7 @@
 #JavaScript Tooling
 ##Love Your Development Workflow
 
+[Watch the video](http://video.esri.com/watch/3294/javascript-tooling-love-your-development-workflow)
 
 Let's talk about how we develop JavaScript apps. Toss aside Notepad and IE—it's time we got serious about this. 
 Chrome Dev Tools, Postman, Grunt, Bower, SASS/Stylus, Sublime Text, JSHint... the list of tools grows every day. 
