@@ -1,5 +1,4 @@
-#JavaScript Tooling
-##Love Your Development Workflow
+# JavaScript Tooling – Love Your Development Workflow
 
 [Watch the video](http://video.esri.com/watch/3294/javascript-tooling-love-your-development-workflow)
 
